@@ -1,11 +1,12 @@
 var inputSub1 = prompt ("Enter First Subject")
 var inputSub2 = prompt ("Enter Second Subject")
 var inputSub3 = prompt ("Enter Third Subject")
+var overallMarksSubject
 
 var enterMarks = "Enter Your Marks"
-var sub1 = prompt (enterMarks)
-var sub2 = prompt (enterMarks)
-var sub3 = prompt (enterMarks)
+var sub1 = +prompt (enterMarks)
+var sub2 = +prompt (enterMarks)
+var sub3 = +prompt (enterMarks)
 
 var subject1 = sub1 
 var subject2 = sub2 
